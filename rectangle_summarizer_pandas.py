@@ -33,5 +33,5 @@ summary = [
 ]
 
 df = pd.DataFrame(dict(summary), index=([0]))
-df
+df.to_csv("summary.csv",index=False)
 # %%
